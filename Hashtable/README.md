@@ -1,9 +1,9 @@
 # Hashtable
 
 Implemented a hashtable class using the DictionaryInterface.
-Creates a ​MyHashTable​ with size 20,000.
+Created a ​MyHashTable​ with size 20,000.
 The ​keys​ used in this hashtable are rhyming groups.
-The ​values​ we'll used in this hashtable are ​sorted linked lists​.
+The ​values​ used in this hashtable are ​sorted linked lists​.
 Each sorted linked list​ will store individual words sharing a rhyme group.
 The CMU Pronunciation dictionary is a free data source of how each word in
 English is pronounced, useful for text-to-speech or rhyming applications.

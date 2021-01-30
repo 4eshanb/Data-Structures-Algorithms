@@ -20,11 +20,7 @@ typedef struct EntryObj {
 // allows EntryObj* to be called Entry in this file
 typedef struct EntryObj* Entry;
 int hash(Dictionary D, char* key);
-/*
- *
- * YOUR FUNCTION IMPLEMENTATIONS GO BELOW HERE
- *
-*/
+
 Entry newEntry(char* key, char* value){
   Entry Entry = malloc(sizeof(EntryObj));
   Entry->key = key;
@@ -138,20 +134,6 @@ void printDictionary(FILE* out, Dictionary D){
     }
   }
 }
-
-/*
- *
- * YOUR FUNCTION IMPLEMENTATIONS GO ABOVE HERE
- *
-*/
-
-/*
- * YOUR CODE GOES ABOVE THIS COMMENT
- * DO NOT ALTER THESE FUNCTIONS
- * THESE ARE THE THREE FUNCTIONS THAT WILL ALLOW YOU TO CONVERT
- * A STRING INTO A VALID ARRAY INDEX
- * YOU WILL ONLY NEED TO CALL hash(Dictionary D, char* key)
-*/
 
 // rotate_left()
 // rotate the bits in an unsigned int
